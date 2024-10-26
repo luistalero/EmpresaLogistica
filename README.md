@@ -301,6 +301,7 @@ JOIN Evento_de_Seguimiento es ON p.ID_Paquete = es.ID_Paquete
 GROUP BY p.ID_Paquete, p.Numero_Seguimiento
 HAVING Dias_Totales > 0
 ORDER BY Dias_Totales DESC;
+
 ```
 
 Hecho por (Luis Alberto Talero Martinez)
